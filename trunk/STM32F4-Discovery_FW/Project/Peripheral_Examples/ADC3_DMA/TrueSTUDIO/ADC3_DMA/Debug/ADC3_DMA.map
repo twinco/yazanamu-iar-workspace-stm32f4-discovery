@@ -1,0 +1,1124 @@
+Archive member included because of file (symbol)
+
+c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/../../../../arm-atollic-eabi/lib/thumb/thumb2\libc.a(lib_a-init.o)
+                              TrueSTUDIO\startup_stm32f4xx.o (__libc_init_array)
+
+Allocating common symbols
+Common symbol       size              file
+
+NVIC_InitStructure  0x4               STM32F4-Discovery\stm32f4_discovery.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2/crti.o
+ .data          0x00000000        0x0 c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2/crti.o
+ .bss           0x00000000        0x0 c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2/crti.o
+ .data          0x00000000        0x4 c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2/crtbegin.o
+ .text          0x00000000        0x0 User\system_stm32f4xx.o
+ .data          0x00000000        0x0 User\system_stm32f4xx.o
+ .bss           0x00000000        0x0 User\system_stm32f4xx.o
+ .text.SystemCoreClockUpdate
+                0x00000000       0x90 User\system_stm32f4xx.o
+ .data.AHBPrescTable
+                0x00000000       0x10 User\system_stm32f4xx.o
+ .data.SystemCoreClock
+                0x00000000        0x4 User\system_stm32f4xx.o
+ .text          0x00000000        0x0 User\stm32f4xx_it.o
+ .data          0x00000000        0x0 User\stm32f4xx_it.o
+ .bss           0x00000000        0x0 User\stm32f4xx_it.o
+ .text          0x00000000        0x0 User\main.o
+ .data          0x00000000        0x0 User\main.o
+ .bss           0x00000000        0x0 User\main.o
+ .text          0x00000000       0x14 TrueSTUDIO\startup_stm32f4xx.o
+ .data          0x00000000        0x0 TrueSTUDIO\startup_stm32f4xx.o
+ .bss           0x00000000        0x0 TrueSTUDIO\startup_stm32f4xx.o
+ .text          0x00000000        0x0 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .data          0x00000000        0x0 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .bss           0x00000000        0x0 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .text.RCC_DeInit
+                0x00000000       0x34 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .text.RCC_HSEConfig
+                0x00000000       0x10 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .text.RCC_AdjustHSICalibrationValue
+                0x00000000       0x14 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .text.RCC_HSICmd
+                0x00000000        0xc STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .text.RCC_LSEConfig
+                0x00000000       0x20 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .text.RCC_LSICmd
+                0x00000000        0xc STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .text.RCC_PLLConfig
+                0x00000000       0x20 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .text.RCC_PLLCmd
+                0x00000000        0xc STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .text.RCC_PLLI2SConfig
+                0x00000000       0x14 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .text.RCC_PLLI2SCmd
+                0x00000000        0xc STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .text.RCC_ClockSecuritySystemCmd
+                0x00000000        0xc STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .text.RCC_MCO1Config
+                0x00000000       0x18 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .text.RCC_MCO2Config
+                0x00000000       0x18 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .text.RCC_SYSCLKConfig
+                0x00000000       0x14 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .text.RCC_GetSYSCLKSource
+                0x00000000       0x10 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .text.RCC_HCLKConfig
+                0x00000000       0x14 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .text.RCC_PCLK1Config
+                0x00000000       0x14 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .text.RCC_PCLK2Config
+                0x00000000       0x14 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .text.RCC_GetClocksFreq
+                0x00000000       0xac STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .text.RCC_RTCCLKConfig
+                0x00000000       0x30 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .text.RCC_RTCCLKCmd
+                0x00000000        0xc STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .text.RCC_BackupResetCmd
+                0x00000000        0xc STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .text.RCC_I2SCLKConfig
+                0x00000000        0xc STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .text.RCC_AHB2PeriphClockCmd
+                0x00000000       0x18 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .text.RCC_AHB3PeriphClockCmd
+                0x00000000       0x18 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .text.RCC_APB1PeriphClockCmd
+                0x00000000       0x18 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .text.RCC_AHB1PeriphResetCmd
+                0x00000000       0x18 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .text.RCC_AHB2PeriphResetCmd
+                0x00000000       0x18 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .text.RCC_AHB3PeriphResetCmd
+                0x00000000       0x18 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .text.RCC_APB1PeriphResetCmd
+                0x00000000       0x18 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .text.RCC_APB2PeriphResetCmd
+                0x00000000       0x18 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .text.RCC_AHB1PeriphClockLPModeCmd
+                0x00000000       0x18 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .text.RCC_AHB2PeriphClockLPModeCmd
+                0x00000000       0x18 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .text.RCC_AHB3PeriphClockLPModeCmd
+                0x00000000       0x18 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .text.RCC_APB1PeriphClockLPModeCmd
+                0x00000000       0x18 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .text.RCC_APB2PeriphClockLPModeCmd
+                0x00000000       0x18 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .text.RCC_ITConfig
+                0x00000000       0x18 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .text.RCC_GetFlagStatus
+                0x00000000       0x28 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .text.RCC_WaitForHSEStartUp
+                0x00000000       0x2c STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .text.RCC_ClearFlag
+                0x00000000       0x10 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .text.RCC_GetITStatus
+                0x00000000       0x14 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .text.RCC_ClearITPendingBit
+                0x00000000        0xc STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .data.APBAHBPrescTable
+                0x00000000       0x10 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .text          0x00000000        0x0 STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+ .data          0x00000000        0x0 STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+ .bss           0x00000000        0x0 STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+ .text.GPIO_DeInit
+                0x00000000       0xd8 STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+ .text.GPIO_StructInit
+                0x00000000       0x12 STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+ .text.GPIO_PinLockConfig
+                0x00000000       0x26 STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+ .text.GPIO_ReadInputDataBit
+                0x00000000        0xc STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+ .text.GPIO_ReadInputData
+                0x00000000        0x6 STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+ .text.GPIO_ReadOutputDataBit
+                0x00000000        0xc STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+ .text.GPIO_ReadOutputData
+                0x00000000        0x6 STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+ .text.GPIO_SetBits
+                0x00000000        0x4 STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+ .text.GPIO_ResetBits
+                0x00000000        0x4 STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+ .text.GPIO_WriteBit
+                0x00000000        0xa STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+ .text.GPIO_Write
+                0x00000000        0x4 STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+ .text.GPIO_ToggleBits
+                0x00000000        0xa STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+ .text.GPIO_PinAFConfig
+                0x00000000       0x2e STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+ .text          0x00000000        0x0 STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+ .data          0x00000000        0x0 STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+ .bss           0x00000000        0x0 STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+ .text.DMA_DeInit
+                0x00000000      0x118 STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+ .text.DMA_StructInit
+                0x00000000       0x22 STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+ .text.DMA_PeriphIncOffsetSizeConfig
+                0x00000000       0x14 STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+ .text.DMA_FlowControllerConfig
+                0x00000000       0x14 STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+ .text.DMA_SetCurrDataCounter
+                0x00000000        0x4 STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+ .text.DMA_GetCurrDataCounter
+                0x00000000        0x6 STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+ .text.DMA_DoubleBufferModeConfig
+                0x00000000       0x16 STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+ .text.DMA_DoubleBufferModeCmd
+                0x00000000       0x14 STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+ .text.DMA_MemoryTargetConfig
+                0x00000000        0xa STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+ .text.DMA_GetCurrentMemoryTarget
+                0x00000000        0x8 STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+ .text.DMA_GetCmdStatus
+                0x00000000        0x8 STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+ .text.DMA_GetFIFOStatus
+                0x00000000        0x8 STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+ .text.DMA_GetFlagStatus
+                0x00000000       0x38 STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+ .text.DMA_ClearFlag
+                0x00000000       0x30 STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+ .text.DMA_ITConfig
+                0x00000000       0x34 STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+ .text.DMA_GetITStatus
+                0x00000000       0x5c STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+ .text.DMA_ClearITPendingBit
+                0x00000000       0x30 STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+ .text          0x00000000        0x0 STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .data          0x00000000        0x0 STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .bss           0x00000000        0x0 STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .text.ADC_DeInit
+                0x00000000       0x1a STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .text.ADC_StructInit
+                0x00000000       0x14 STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .text.ADC_CommonStructInit
+                0x00000000        0xc STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .text.ADC_AnalogWatchdogCmd
+                0x00000000       0x12 STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .text.ADC_AnalogWatchdogThresholdsConfig
+                0x00000000        0x6 STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .text.ADC_AnalogWatchdogSingleChannelConfig
+                0x00000000        0xe STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .text.ADC_TempSensorVrefintCmd
+                0x00000000       0x1c STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .text.ADC_VBATCmd
+                0x00000000       0x1c STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .text.ADC_GetSoftwareStartConvStatus
+                0x00000000        0x8 STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .text.ADC_EOCOnEachRegularChannelCmd
+                0x00000000       0x14 STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .text.ADC_ContinuousModeCmd
+                0x00000000       0x14 STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .text.ADC_DiscModeChannelCountConfig
+                0x00000000       0x10 STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .text.ADC_DiscModeCmd
+                0x00000000       0x14 STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .text.ADC_GetConversionValue
+                0x00000000        0x6 STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .text.ADC_GetMultiModeConversionValue
+                0x00000000        0xc STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .text.ADC_MultiModeDMARequestAfterLastTransferCmd
+                0x00000000       0x1c STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .text.ADC_InjectedChannelConfig
+                0x00000000       0x5c STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .text.ADC_InjectedSequencerLengthConfig
+                0x00000000       0x10 STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .text.ADC_SetInjectedOffset
+                0x00000000       0x16 STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .text.ADC_ExternalTrigInjectedConvConfig
+                0x00000000        0xe STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .text.ADC_ExternalTrigInjectedConvEdgeConfig
+                0x00000000        0xe STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .text.ADC_SoftwareStartInjectedConv
+                0x00000000        0xa STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .text.ADC_GetSoftwareStartInjectedConvCmdStatus
+                0x00000000        0x8 STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .text.ADC_AutoInjectedConvCmd
+                0x00000000       0x14 STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .text.ADC_InjectedDiscModeCmd
+                0x00000000       0x14 STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .text.ADC_GetInjectedConversionValue
+                0x00000000       0x1a STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .text.ADC_ITConfig
+                0x00000000       0x1a STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .text.ADC_GetFlagStatus
+                0x00000000        0xc STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .text.ADC_ClearFlag
+                0x00000000        0x6 STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .text.ADC_GetITStatus
+                0x00000000       0x1c STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .text.ADC_ClearITPendingBit
+                0x00000000        0x8 STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .text          0x00000000        0x0 STM32F4xx_StdPeriph_Driver\misc.o
+ .data          0x00000000        0x0 STM32F4xx_StdPeriph_Driver\misc.o
+ .bss           0x00000000        0x0 STM32F4xx_StdPeriph_Driver\misc.o
+ .text.NVIC_PriorityGroupConfig
+                0x00000000       0x14 STM32F4xx_StdPeriph_Driver\misc.o
+ .text.NVIC_Init
+                0x00000000       0x68 STM32F4xx_StdPeriph_Driver\misc.o
+ .text.NVIC_SetVectorTable
+                0x00000000       0x14 STM32F4xx_StdPeriph_Driver\misc.o
+ .text.NVIC_SystemLPConfig
+                0x00000000       0x18 STM32F4xx_StdPeriph_Driver\misc.o
+ .text.SysTick_CLKSourceConfig
+                0x00000000       0x18 STM32F4xx_StdPeriph_Driver\misc.o
+ .text          0x00000000        0x0 STM32F4-Discovery\stm32f4_discovery.o
+ .data          0x00000000        0x0 STM32F4-Discovery\stm32f4_discovery.o
+ .bss           0x00000000        0x0 STM32F4-Discovery\stm32f4_discovery.o
+ .text.STM_EVAL_LEDInit
+                0x00000000       0x48 STM32F4-Discovery\stm32f4_discovery.o
+ .text.STM_EVAL_LEDOn
+                0x00000000       0x18 STM32F4-Discovery\stm32f4_discovery.o
+ .text.STM_EVAL_LEDOff
+                0x00000000       0x18 STM32F4-Discovery\stm32f4_discovery.o
+ .text.STM_EVAL_LEDToggle
+                0x00000000       0x20 STM32F4-Discovery\stm32f4_discovery.o
+ .text.STM_EVAL_PBInit
+                0x00000000       0xa8 STM32F4-Discovery\stm32f4_discovery.o
+ .text.STM_EVAL_PBGetState
+                0x00000000       0x20 STM32F4-Discovery\stm32f4_discovery.o
+ .rodata.BUTTON_CLK
+                0x00000000        0x4 STM32F4-Discovery\stm32f4_discovery.o
+ .data.GPIO_PORT
+                0x00000000       0x10 STM32F4-Discovery\stm32f4_discovery.o
+ .rodata.BUTTON_PIN
+                0x00000000        0x2 STM32F4-Discovery\stm32f4_discovery.o
+ .rodata.GPIO_CLK
+                0x00000000       0x10 STM32F4-Discovery\stm32f4_discovery.o
+ .rodata.GPIO_PIN
+                0x00000000        0x8 STM32F4-Discovery\stm32f4_discovery.o
+ .rodata.BUTTON_PORT_SOURCE
+                0x00000000        0x1 STM32F4-Discovery\stm32f4_discovery.o
+ .data.BUTTON_PORT
+                0x00000000        0x4 STM32F4-Discovery\stm32f4_discovery.o
+ .rodata.BUTTON_PIN_SOURCE
+                0x00000000        0x1 STM32F4-Discovery\stm32f4_discovery.o
+ .rodata.BUTTON_IRQn
+                0x00000000        0x1 STM32F4-Discovery\stm32f4_discovery.o
+ .rodata.BUTTON_EXTI_LINE
+                0x00000000        0x2 STM32F4-Discovery\stm32f4_discovery.o
+ COMMON         0x00000000        0x4 STM32F4-Discovery\stm32f4_discovery.o
+ .text          0x00000000        0x0 c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/../../../../arm-atollic-eabi/lib/thumb/thumb2\libc.a(lib_a-init.o)
+ .data          0x00000000        0x0 c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/../../../../arm-atollic-eabi/lib/thumb/thumb2\libc.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/../../../../arm-atollic-eabi/lib/thumb/thumb2\libc.a(lib_a-init.o)
+ .text          0x00000000        0x0 c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2/crtend.o
+ .data          0x00000000        0x0 c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2/crtend.o
+ .bss           0x00000000        0x0 c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2/crtend.o
+ .jcr           0x00000000        0x4 c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2/crtend.o
+ .text          0x00000000        0x0 c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2/crtn.o
+ .data          0x00000000        0x0 c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2/crtn.o
+ .bss           0x00000000        0x0 c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00100000         xr
+RAM              0x20000000         0x00030000         xrw
+MEMORY_B1        0x60000000         0x00000000         xr
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2/crti.o
+LOAD c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2/crtbegin.o
+LOAD User\system_stm32f4xx.o
+LOAD User\stm32f4xx_it.o
+LOAD User\main.o
+LOAD TrueSTUDIO\startup_stm32f4xx.o
+LOAD STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+LOAD STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+LOAD STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+LOAD STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+LOAD STM32F4xx_StdPeriph_Driver\misc.o
+LOAD STM32F4-Discovery\stm32f4_discovery.o
+                0x00001000                malloc_getpagesize_P = 0x1000
+START GROUP
+LOAD c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2\libgcc.a
+LOAD c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/../../../../arm-atollic-eabi/lib/thumb/thumb2\libc.a
+END GROUP
+LOAD c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2/crtend.o
+LOAD c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2/crtn.o
+                0x20020000                _estack = 0x20020000
+                0x00000000                _Min_Heap_Size = 0x0
+                0x00000400                _Min_Stack_Size = 0x400
+
+.isr_vector     0x08000000      0x188
+                0x08000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x188 TrueSTUDIO\startup_stm32f4xx.o
+                0x08000000                g_pfnVectors
+                0x08000188                . = ALIGN (0x4)
+
+.text           0x08000188      0x568
+                0x08000188                . = ALIGN (0x4)
+ *(.text)
+ .text          0x08000188       0x30 c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2/crtbegin.o
+ *(.text*)
+ .text.SystemInit
+                0x080001b8       0xec User\system_stm32f4xx.o
+                0x080001b8                SystemInit
+ .text.NMI_Handler
+                0x080002a4        0x2 User\stm32f4xx_it.o
+                0x080002a4                NMI_Handler
+ .text.HardFault_Handler
+                0x080002a6        0x2 User\stm32f4xx_it.o
+                0x080002a6                HardFault_Handler
+ .text.MemManage_Handler
+                0x080002a8        0x2 User\stm32f4xx_it.o
+                0x080002a8                MemManage_Handler
+ .text.BusFault_Handler
+                0x080002aa        0x2 User\stm32f4xx_it.o
+                0x080002aa                BusFault_Handler
+ .text.UsageFault_Handler
+                0x080002ac        0x2 User\stm32f4xx_it.o
+                0x080002ac                UsageFault_Handler
+ .text.SVC_Handler
+                0x080002ae        0x2 User\stm32f4xx_it.o
+                0x080002ae                SVC_Handler
+ .text.DebugMon_Handler
+                0x080002b0        0x2 User\stm32f4xx_it.o
+                0x080002b0                DebugMon_Handler
+ .text.PendSV_Handler
+                0x080002b2        0x2 User\stm32f4xx_it.o
+                0x080002b2                PendSV_Handler
+ .text.SysTick_Handler
+                0x080002b4        0x2 User\stm32f4xx_it.o
+                0x080002b4                SysTick_Handler
+ *fill*         0x080002b6        0x2 00
+ .text.ADC3_CH12_DMA_Config
+                0x080002b8       0xe0 User\main.o
+                0x080002b8                ADC3_CH12_DMA_Config
+ .text.main     0x08000398       0x34 User\main.o
+                0x08000398                main
+ .text.Reset_Handler
+                0x080003cc       0x48 TrueSTUDIO\startup_stm32f4xx.o
+                0x080003cc                Reset_Handler
+ .text.Default_Handler
+                0x08000414        0x2 TrueSTUDIO\startup_stm32f4xx.o
+                0x08000414                RTC_Alarm_IRQHandler
+                0x08000414                HASH_RNG_IRQHandler
+                0x08000414                EXTI2_IRQHandler
+                0x08000414                TIM8_CC_IRQHandler
+                0x08000414                TIM1_CC_IRQHandler
+                0x08000414                DMA2_Stream5_IRQHandler
+                0x08000414                DMA1_Stream5_IRQHandler
+                0x08000414                PVD_IRQHandler
+                0x08000414                SDIO_IRQHandler
+                0x08000414                TAMP_STAMP_IRQHandler
+                0x08000414                CAN2_RX1_IRQHandler
+                0x08000414                EXTI3_IRQHandler
+                0x08000414                TIM8_TRG_COM_TIM14_IRQHandler
+                0x08000414                TIM1_UP_TIM10_IRQHandler
+                0x08000414                TIM8_UP_TIM13_IRQHandler
+                0x08000414                I2C3_ER_IRQHandler
+                0x08000414                EXTI0_IRQHandler
+                0x08000414                I2C2_EV_IRQHandler
+                0x08000414                DMA1_Stream2_IRQHandler
+                0x08000414                CAN1_RX0_IRQHandler
+                0x08000414                FPU_IRQHandler
+                0x08000414                OTG_HS_WKUP_IRQHandler
+                0x08000414                CAN2_SCE_IRQHandler
+                0x08000414                DMA2_Stream2_IRQHandler
+                0x08000414                SPI1_IRQHandler
+                0x08000414                TIM6_DAC_IRQHandler
+                0x08000414                TIM1_BRK_TIM9_IRQHandler
+                0x08000414                DCMI_IRQHandler
+                0x08000414                CAN2_RX0_IRQHandler
+                0x08000414                DMA2_Stream3_IRQHandler
+                0x08000414                USART6_IRQHandler
+                0x08000414                USART3_IRQHandler
+                0x08000414                CRYP_IRQHandler
+                0x08000414                CAN1_RX1_IRQHandler
+                0x08000414                UART5_IRQHandler
+                0x08000414                DMA2_Stream0_IRQHandler
+                0x08000414                TIM4_IRQHandler
+                0x08000414                I2C1_EV_IRQHandler
+                0x08000414                DMA1_Stream6_IRQHandler
+                0x08000414                DMA1_Stream1_IRQHandler
+                0x08000414                UART4_IRQHandler
+                0x08000414                TIM3_IRQHandler
+                0x08000414                RCC_IRQHandler
+                0x08000414                TIM8_BRK_TIM12_IRQHandler
+                0x08000414                Default_Handler
+                0x08000414                EXTI15_10_IRQHandler
+                0x08000414                ADC_IRQHandler
+                0x08000414                DMA1_Stream7_IRQHandler
+                0x08000414                TIM7_IRQHandler
+                0x08000414                CAN2_TX_IRQHandler
+                0x08000414                TIM5_IRQHandler
+                0x08000414                DMA2_Stream7_IRQHandler
+                0x08000414                I2C3_EV_IRQHandler
+                0x08000414                EXTI9_5_IRQHandler
+                0x08000414                RTC_WKUP_IRQHandler
+                0x08000414                ETH_WKUP_IRQHandler
+                0x08000414                SPI2_IRQHandler
+                0x08000414                OTG_HS_EP1_IN_IRQHandler
+                0x08000414                DMA1_Stream0_IRQHandler
+                0x08000414                CAN1_TX_IRQHandler
+                0x08000414                EXTI4_IRQHandler
+                0x08000414                FSMC_IRQHandler
+                0x08000414                ETH_IRQHandler
+                0x08000414                OTG_HS_EP1_OUT_IRQHandler
+                0x08000414                WWDG_IRQHandler
+                0x08000414                TIM2_IRQHandler
+                0x08000414                OTG_FS_WKUP_IRQHandler
+                0x08000414                TIM1_TRG_COM_TIM11_IRQHandler
+                0x08000414                OTG_HS_IRQHandler
+                0x08000414                EXTI1_IRQHandler
+                0x08000414                USART2_IRQHandler
+                0x08000414                I2C2_ER_IRQHandler
+                0x08000414                DMA2_Stream1_IRQHandler
+                0x08000414                CAN1_SCE_IRQHandler
+                0x08000414                FLASH_IRQHandler
+                0x08000414                DMA2_Stream4_IRQHandler
+                0x08000414                USART1_IRQHandler
+                0x08000414                OTG_FS_IRQHandler
+                0x08000414                SPI3_IRQHandler
+                0x08000414                DMA1_Stream4_IRQHandler
+                0x08000414                I2C1_ER_IRQHandler
+                0x08000414                DMA2_Stream6_IRQHandler
+                0x08000414                DMA1_Stream3_IRQHandler
+ *fill*         0x08000416        0x2 00
+ .text.RCC_AHB1PeriphClockCmd
+                0x08000418       0x18 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+                0x08000418                RCC_AHB1PeriphClockCmd
+ .text.RCC_APB2PeriphClockCmd
+                0x08000430       0x18 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+                0x08000430                RCC_APB2PeriphClockCmd
+ .text.GPIO_Init
+                0x08000448       0x86 STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+                0x08000448                GPIO_Init
+ *fill*         0x080004ce        0x2 00
+ .text.DMA_Init
+                0x080004d0       0x5c STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+                0x080004d0                DMA_Init
+ .text.DMA_Cmd  0x0800052c       0x14 STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+                0x0800052c                DMA_Cmd
+ .text.ADC_Init
+                0x08000540       0x50 STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+                0x08000540                ADC_Init
+ .text.ADC_CommonInit
+                0x08000590       0x2c STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+                0x08000590                ADC_CommonInit
+ .text.ADC_Cmd  0x080005bc       0x14 STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+                0x080005bc                ADC_Cmd
+ .text.ADC_RegularChannelConfig
+                0x080005d0       0x8e STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+                0x080005d0                ADC_RegularChannelConfig
+ .text.ADC_SoftwareStartConv
+                0x0800065e        0xa STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+                0x0800065e                ADC_SoftwareStartConv
+ .text.ADC_DMACmd
+                0x08000668       0x14 STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+                0x08000668                ADC_DMACmd
+ .text.ADC_DMARequestAfterLastTransferCmd
+                0x0800067c       0x14 STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+                0x0800067c                ADC_DMARequestAfterLastTransferCmd
+ .text.__libc_init_array
+                0x08000690       0x48 c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/../../../../arm-atollic-eabi/lib/thumb/thumb2\libc.a(lib_a-init.o)
+                0x08000690                __libc_init_array
+ *(.rodata)
+ *(.rodata*)
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.eh_frame)
+ *(.init)
+ .init          0x080006d8        0x4 c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2/crti.o
+                0x080006d8                _init
+ .init          0x080006dc        0x8 c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2/crtn.o
+ *(.fini)
+ .fini          0x080006e4        0x4 c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2/crti.o
+                0x080006e4                _fini
+ .fini          0x080006e8        0x8 c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2/crtn.o
+                0x080006f0                . = ALIGN (0x4)
+                0x080006f0                _etext = .
+
+.vfp11_veneer   0x080006f0        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x080006f0        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM            0x080006f0        0x0
+                0x080006f0                __exidx_start = .
+ *(.ARM.exidx*)
+                0x080006f0                __exidx_end = .
+
+.preinit_array  0x080006f0        0x0
+                0x080006f0                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array*)
+                0x080006f0                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x080006f0        0x4
+                0x080006f0                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array*)
+ .init_array    0x080006f0        0x4 c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2/crtbegin.o
+                0x080006f4                PROVIDE (__init_array_end, .)
+
+.fini_array     0x080006f4        0x4
+                0x080006f4                PROVIDE (__fini_array_start, .)
+ *(.fini_array*)
+ .fini_array    0x080006f4        0x4 c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2/crtbegin.o
+ *(SORT(.fini_array.*))
+                0x080006f8                PROVIDE (__fini_array_end, .)
+                0x080006f8                _sidata = .
+
+.data           0x20000000        0x0 load address 0x080006f8
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                _sdata = .
+ *(.data)
+ *(.data*)
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                _edata = .
+
+.jcr            0x20000000        0x0
+ .jcr           0x20000000        0x0 c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2/crtbegin.o
+                0x20000000                . = ALIGN (0x4)
+
+.bss            0x20000000        0xc
+                0x20000000                _sbss = .
+                0x20000000                __bss_start__ = _sbss
+ *(.bss)
+ .bss           0x20000000        0x1 c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2/crtbegin.o
+ *(.bss*)
+ *fill*         0x20000001        0x3 00
+ .bss.ADC3ConvertedVoltage
+                0x20000004        0x4 User\main.o
+                0x20000004                ADC3ConvertedVoltage
+ .bss.ADC3ConvertedValue
+                0x20000008        0x2 User\main.o
+                0x20000008                ADC3ConvertedValue
+ *(COMMON)
+                0x2000000c                . = ALIGN (0x4)
+ *fill*         0x2000000a        0x2 00
+                0x2000000c                _ebss = .
+                0x2000000c                __bss_end__ = _ebss
+
+._user_heap_stack
+                0x2000000c      0x400
+                0x2000000c                . = ALIGN (0x4)
+                0x2000000c                PROVIDE (end, .)
+                0x2000000c                PROVIDE (_end, .)
+                0x2000000c                . = (. + _Min_Heap_Size)
+                0x2000040c                . = (. + _Min_Stack_Size)
+ *fill*         0x2000000c      0x400 00
+                0x2000040c                . = ALIGN (0x4)
+
+.memory_b1_text
+ *(.mb1text)
+ *(.mb1text*)
+ *(.mb1rodata)
+ *(.mb1rodata*)
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+
+.ARM.attributes
+                0x00000000       0x2d
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x19 c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2/crti.o
+ .ARM.attributes
+                0x00000019       0x29 c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2/crtbegin.o
+ .ARM.attributes
+                0x00000042       0x31 User\system_stm32f4xx.o
+ .ARM.attributes
+                0x00000073       0x31 User\stm32f4xx_it.o
+ .ARM.attributes
+                0x000000a4       0x31 User\main.o
+ .ARM.attributes
+                0x000000d5       0x21 TrueSTUDIO\startup_stm32f4xx.o
+ .ARM.attributes
+                0x000000f6       0x31 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .ARM.attributes
+                0x00000127       0x31 STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+ .ARM.attributes
+                0x00000158       0x31 STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+ .ARM.attributes
+                0x00000189       0x31 STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .ARM.attributes
+                0x000001ba       0x31 STM32F4xx_StdPeriph_Driver\misc.o
+ .ARM.attributes
+                0x000001eb       0x31 STM32F4-Discovery\stm32f4_discovery.o
+ .ARM.attributes
+                0x0000021c       0x29 c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/../../../../arm-atollic-eabi/lib/thumb/thumb2\libc.a(lib_a-init.o)
+ .ARM.attributes
+                0x00000245       0x29 c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2/crtend.o
+ .ARM.attributes
+                0x0000026e       0x19 c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2/crtn.o
+OUTPUT(ADC3_DMA.elf elf32-littlearm)
+
+.debug_line     0x00000000     0x1e45
+ .debug_line    0x00000000       0x6d c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2/crti.o
+ .debug_line    0x0000006d      0x1d4 User\system_stm32f4xx.o
+ .debug_line    0x00000241      0x1af User\stm32f4xx_it.o
+ .debug_line    0x000003f0      0x23a User\main.o
+ .debug_line    0x0000062a       0xb4 TrueSTUDIO\startup_stm32f4xx.o
+ .debug_line    0x000006de      0x576 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .debug_line    0x00000c54      0x333 STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+ .debug_line    0x00000f87      0x3c8 STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+ .debug_line    0x0000134f      0x565 STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .debug_line    0x000018b4      0x249 STM32F4xx_StdPeriph_Driver\misc.o
+ .debug_line    0x00001afd      0x2d8 STM32F4-Discovery\stm32f4_discovery.o
+ .debug_line    0x00001dd5       0x70 c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2/crtn.o
+
+.debug_info     0x00000000     0x46d3
+ .debug_info    0x00000000       0x7e c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2/crti.o
+ .debug_info    0x0000007e      0x643 User\system_stm32f4xx.o
+ .debug_info    0x000006c1      0x150 User\stm32f4xx_it.o
+ .debug_info    0x00000811      0x6aa User\main.o
+ .debug_info    0x00000ebb      0x112 TrueSTUDIO\startup_stm32f4xx.o
+ .debug_info    0x00000fcd      0xd05 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .debug_info    0x00001cd2      0x62d STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+ .debug_info    0x000022ff      0x78b STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+ .debug_info    0x00002a8a      0xcce STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .debug_info    0x00003758      0x596 STM32F4xx_StdPeriph_Driver\misc.o
+ .debug_info    0x00003cee      0x967 STM32F4-Discovery\stm32f4_discovery.o
+ .debug_info    0x00004655       0x7e c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2/crtn.o
+
+.debug_abbrev   0x00000000      0xd6c
+ .debug_abbrev  0x00000000       0x12 c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2/crti.o
+ .debug_abbrev  0x00000012      0x16e User\system_stm32f4xx.o
+ .debug_abbrev  0x00000180       0x66 User\stm32f4xx_it.o
+ .debug_abbrev  0x000001e6      0x139 User\main.o
+ .debug_abbrev  0x0000031f       0x12 TrueSTUDIO\startup_stm32f4xx.o
+ .debug_abbrev  0x00000331      0x1f8 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .debug_abbrev  0x00000529      0x1d0 STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+ .debug_abbrev  0x000006f9      0x19e STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+ .debug_abbrev  0x00000897      0x1d7 STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .debug_abbrev  0x00000a6e      0x14e STM32F4xx_StdPeriph_Driver\misc.o
+ .debug_abbrev  0x00000bbc      0x19e STM32F4-Discovery\stm32f4_discovery.o
+ .debug_abbrev  0x00000d5a       0x12 c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2/crtn.o
+
+.debug_aranges  0x00000000      0x5a8
+ .debug_aranges
+                0x00000000       0x28 c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2/crti.o
+ .debug_aranges
+                0x00000028       0x28 User\system_stm32f4xx.o
+ .debug_aranges
+                0x00000050       0x60 User\stm32f4xx_it.o
+ .debug_aranges
+                0x000000b0       0x28 User\main.o
+ .debug_aranges
+                0x000000d8       0x28 TrueSTUDIO\startup_stm32f4xx.o
+ .debug_aranges
+                0x00000100      0x178 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .debug_aranges
+                0x00000278       0x88 STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+ .debug_aranges
+                0x00000300       0xb0 STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+ .debug_aranges
+                0x000003b0      0x148 STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .debug_aranges
+                0x000004f8       0x40 STM32F4xx_StdPeriph_Driver\misc.o
+ .debug_aranges
+                0x00000538       0x48 STM32F4-Discovery\stm32f4_discovery.o
+ .debug_aranges
+                0x00000580       0x28 c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2/crtn.o
+
+.debug_ranges   0x00000000      0x500
+ .debug_ranges  0x00000000       0x20 c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2/crti.o
+ .debug_ranges  0x00000020       0x18 User\system_stm32f4xx.o
+ .debug_ranges  0x00000038       0x50 User\stm32f4xx_it.o
+ .debug_ranges  0x00000088       0x18 User\main.o
+ .debug_ranges  0x000000a0       0x20 TrueSTUDIO\startup_stm32f4xx.o
+ .debug_ranges  0x000000c0      0x168 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .debug_ranges  0x00000228       0x78 STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+ .debug_ranges  0x000002a0       0xa0 STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+ .debug_ranges  0x00000340      0x138 STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .debug_ranges  0x00000478       0x30 STM32F4xx_StdPeriph_Driver\misc.o
+ .debug_ranges  0x000004a8       0x38 STM32F4-Discovery\stm32f4_discovery.o
+ .debug_ranges  0x000004e0       0x20 c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2/crtn.o
+
+.comment        0x00000000       0xc2
+ .comment       0x00000000       0x61 c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2/crtbegin.o
+                                 0x62 (size before relaxing)
+ .comment       0x00000061       0x61 User\system_stm32f4xx.o
+                                 0x62 (size before relaxing)
+ .comment       0x00000000       0x62 User\stm32f4xx_it.o
+ .comment       0x00000000       0x62 User\main.o
+ .comment       0x00000000       0x62 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .comment       0x00000000       0x62 STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+ .comment       0x00000000       0x62 STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+ .comment       0x00000000       0x62 STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .comment       0x00000000       0x62 STM32F4xx_StdPeriph_Driver\misc.o
+ .comment       0x00000000       0x62 STM32F4-Discovery\stm32f4_discovery.o
+ .comment       0x00000000       0x62 c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/../../../../arm-atollic-eabi/lib/thumb/thumb2\libc.a(lib_a-init.o)
+ .comment       0x00000000       0x62 c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2/crtend.o
+
+.debug_loc      0x00000000     0x184c
+ .debug_loc     0x00000000      0x10e User\system_stm32f4xx.o
+ .debug_loc     0x0000010e       0x4d User\main.o
+ .debug_loc     0x0000015b      0x6c0 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .debug_loc     0x0000081b      0x278 STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+ .debug_loc     0x00000a93      0x308 STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+ .debug_loc     0x00000d9b      0x8fa STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .debug_loc     0x00001695       0xff STM32F4xx_StdPeriph_Driver\misc.o
+ .debug_loc     0x00001794       0xb8 STM32F4-Discovery\stm32f4_discovery.o
+
+.debug_pubnames
+                0x00000000      0xeb7
+ .debug_pubnames
+                0x00000000       0x61 User\system_stm32f4xx.o
+ .debug_pubnames
+                0x00000061       0xc6 User\stm32f4xx_it.o
+ .debug_pubnames
+                0x00000127       0x64 User\main.o
+ .debug_pubnames
+                0x0000018b      0x417 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .debug_pubnames
+                0x000005a2      0x12d STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+ .debug_pubnames
+                0x000006cf      0x1c9 STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+ .debug_pubnames
+                0x00000898      0x446 STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .debug_pubnames
+                0x00000cde       0x89 STM32F4xx_StdPeriph_Driver\misc.o
+ .debug_pubnames
+                0x00000d67      0x150 STM32F4-Discovery\stm32f4_discovery.o
+
+.debug_pubtypes
+                0x00000000      0x6bc
+ .debug_pubtypes
+                0x00000000       0x83 User\system_stm32f4xx.o
+ .debug_pubtypes
+                0x00000083       0x1e User\stm32f4xx_it.o
+ .debug_pubtypes
+                0x000000a1      0x13d User\main.o
+ .debug_pubtypes
+                0x000001de       0xaa STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .debug_pubtypes
+                0x00000288       0xce STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+ .debug_pubtypes
+                0x00000356       0xa3 STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+ .debug_pubtypes
+                0x000003f9       0xc9 STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .debug_pubtypes
+                0x000004c2       0x8c STM32F4xx_StdPeriph_Driver\misc.o
+ .debug_pubtypes
+                0x0000054e      0x16e STM32F4-Discovery\stm32f4_discovery.o
+
+.debug_str      0x00000000     0x2067
+ .debug_str     0x00000000      0x311 User\system_stm32f4xx.o
+                                0x36b (size before relaxing)
+ .debug_str     0x00000311       0xa8 User\stm32f4xx_it.o
+                                0x1db (size before relaxing)
+ .debug_str     0x000003b9      0x4ab User\main.o
+                                0x5fd (size before relaxing)
+ .debug_str     0x00000864      0x585 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+                                0x83d (size before relaxing)
+ .debug_str     0x00000de9      0x1a5 STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+                                0x490 (size before relaxing)
+ .debug_str     0x00000f8e      0x276 STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+                                0x539 (size before relaxing)
+ .debug_str     0x00001204      0x4fa STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+                                0x7f1 (size before relaxing)
+ .debug_str     0x000016fe      0x1cd STM32F4xx_StdPeriph_Driver\misc.o
+                                0x3c6 (size before relaxing)
+ .debug_str     0x000018cb      0x79c STM32F4-Discovery\stm32f4_discovery.o
+                                0xb16 (size before relaxing)
+
+.debug_frame    0x00000000      0xa30
+ .debug_frame   0x00000000       0x34 User\system_stm32f4xx.o
+ .debug_frame   0x00000034       0xa0 User\stm32f4xx_it.o
+ .debug_frame   0x000000d4       0x48 User\main.o
+ .debug_frame   0x0000011c      0x2e4 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+ .debug_frame   0x00000400      0x118 STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+ .debug_frame   0x00000518      0x170 STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+ .debug_frame   0x00000688      0x2ac STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ .debug_frame   0x00000934       0x68 STM32F4xx_StdPeriph_Driver\misc.o
+ .debug_frame   0x0000099c       0x94 STM32F4-Discovery\stm32f4_discovery.o
+
+Cross Reference Table
+
+Symbol                                            File
+ADC3ConvertedValue                                User\main.o
+ADC3ConvertedVoltage                              User\main.o
+ADC3_CH12_DMA_Config                              User\main.o
+ADC_AnalogWatchdogCmd                             STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ADC_AnalogWatchdogSingleChannelConfig             STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ADC_AnalogWatchdogThresholdsConfig                STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ADC_AutoInjectedConvCmd                           STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ADC_ClearFlag                                     STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ADC_ClearITPendingBit                             STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ADC_Cmd                                           STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+                                                  User\main.o
+ADC_CommonInit                                    STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+                                                  User\main.o
+ADC_CommonStructInit                              STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ADC_ContinuousModeCmd                             STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ADC_DMACmd                                        STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+                                                  User\main.o
+ADC_DMARequestAfterLastTransferCmd                STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+                                                  User\main.o
+ADC_DeInit                                        STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ADC_DiscModeChannelCountConfig                    STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ADC_DiscModeCmd                                   STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ADC_EOCOnEachRegularChannelCmd                    STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ADC_ExternalTrigInjectedConvConfig                STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ADC_ExternalTrigInjectedConvEdgeConfig            STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ADC_GetConversionValue                            STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ADC_GetFlagStatus                                 STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ADC_GetITStatus                                   STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ADC_GetInjectedConversionValue                    STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ADC_GetMultiModeConversionValue                   STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ADC_GetSoftwareStartConvStatus                    STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ADC_GetSoftwareStartInjectedConvCmdStatus         STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ADC_IRQHandler                                    TrueSTUDIO\startup_stm32f4xx.o
+ADC_ITConfig                                      STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ADC_Init                                          STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+                                                  User\main.o
+ADC_InjectedChannelConfig                         STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ADC_InjectedDiscModeCmd                           STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ADC_InjectedSequencerLengthConfig                 STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ADC_MultiModeDMARequestAfterLastTransferCmd       STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ADC_RegularChannelConfig                          STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+                                                  User\main.o
+ADC_SetInjectedOffset                             STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ADC_SoftwareStartConv                             STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+                                                  User\main.o
+ADC_SoftwareStartInjectedConv                     STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ADC_StructInit                                    STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ADC_TempSensorVrefintCmd                          STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+ADC_VBATCmd                                       STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+AHBPrescTable                                     User\system_stm32f4xx.o
+BUTTON_CLK                                        STM32F4-Discovery\stm32f4_discovery.o
+BUTTON_EXTI_LINE                                  STM32F4-Discovery\stm32f4_discovery.o
+BUTTON_IRQn                                       STM32F4-Discovery\stm32f4_discovery.o
+BUTTON_PIN                                        STM32F4-Discovery\stm32f4_discovery.o
+BUTTON_PIN_SOURCE                                 STM32F4-Discovery\stm32f4_discovery.o
+BUTTON_PORT                                       STM32F4-Discovery\stm32f4_discovery.o
+BUTTON_PORT_SOURCE                                STM32F4-Discovery\stm32f4_discovery.o
+BusFault_Handler                                  User\stm32f4xx_it.o
+CAN1_RX0_IRQHandler                               TrueSTUDIO\startup_stm32f4xx.o
+CAN1_RX1_IRQHandler                               TrueSTUDIO\startup_stm32f4xx.o
+CAN1_SCE_IRQHandler                               TrueSTUDIO\startup_stm32f4xx.o
+CAN1_TX_IRQHandler                                TrueSTUDIO\startup_stm32f4xx.o
+CAN2_RX0_IRQHandler                               TrueSTUDIO\startup_stm32f4xx.o
+CAN2_RX1_IRQHandler                               TrueSTUDIO\startup_stm32f4xx.o
+CAN2_SCE_IRQHandler                               TrueSTUDIO\startup_stm32f4xx.o
+CAN2_TX_IRQHandler                                TrueSTUDIO\startup_stm32f4xx.o
+CRYP_IRQHandler                                   TrueSTUDIO\startup_stm32f4xx.o
+DCMI_IRQHandler                                   TrueSTUDIO\startup_stm32f4xx.o
+DMA1_Stream0_IRQHandler                           TrueSTUDIO\startup_stm32f4xx.o
+DMA1_Stream1_IRQHandler                           TrueSTUDIO\startup_stm32f4xx.o
+DMA1_Stream2_IRQHandler                           TrueSTUDIO\startup_stm32f4xx.o
+DMA1_Stream3_IRQHandler                           TrueSTUDIO\startup_stm32f4xx.o
+DMA1_Stream4_IRQHandler                           TrueSTUDIO\startup_stm32f4xx.o
+DMA1_Stream5_IRQHandler                           TrueSTUDIO\startup_stm32f4xx.o
+DMA1_Stream6_IRQHandler                           TrueSTUDIO\startup_stm32f4xx.o
+DMA1_Stream7_IRQHandler                           TrueSTUDIO\startup_stm32f4xx.o
+DMA2_Stream0_IRQHandler                           TrueSTUDIO\startup_stm32f4xx.o
+DMA2_Stream1_IRQHandler                           TrueSTUDIO\startup_stm32f4xx.o
+DMA2_Stream2_IRQHandler                           TrueSTUDIO\startup_stm32f4xx.o
+DMA2_Stream3_IRQHandler                           TrueSTUDIO\startup_stm32f4xx.o
+DMA2_Stream4_IRQHandler                           TrueSTUDIO\startup_stm32f4xx.o
+DMA2_Stream5_IRQHandler                           TrueSTUDIO\startup_stm32f4xx.o
+DMA2_Stream6_IRQHandler                           TrueSTUDIO\startup_stm32f4xx.o
+DMA2_Stream7_IRQHandler                           TrueSTUDIO\startup_stm32f4xx.o
+DMA_ClearFlag                                     STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+DMA_ClearITPendingBit                             STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+DMA_Cmd                                           STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+                                                  User\main.o
+DMA_DeInit                                        STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+DMA_DoubleBufferModeCmd                           STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+DMA_DoubleBufferModeConfig                        STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+DMA_FlowControllerConfig                          STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+DMA_GetCmdStatus                                  STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+DMA_GetCurrDataCounter                            STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+DMA_GetCurrentMemoryTarget                        STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+DMA_GetFIFOStatus                                 STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+DMA_GetFlagStatus                                 STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+DMA_GetITStatus                                   STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+DMA_ITConfig                                      STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+DMA_Init                                          STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+                                                  User\main.o
+DMA_MemoryTargetConfig                            STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+DMA_PeriphIncOffsetSizeConfig                     STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+DMA_SetCurrDataCounter                            STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+DMA_StructInit                                    STM32F4xx_StdPeriph_Driver\stm32f4xx_dma.o
+DebugMon_Handler                                  User\stm32f4xx_it.o
+Default_Handler                                   TrueSTUDIO\startup_stm32f4xx.o
+ETH_IRQHandler                                    TrueSTUDIO\startup_stm32f4xx.o
+ETH_WKUP_IRQHandler                               TrueSTUDIO\startup_stm32f4xx.o
+EXTI0_IRQHandler                                  TrueSTUDIO\startup_stm32f4xx.o
+EXTI15_10_IRQHandler                              TrueSTUDIO\startup_stm32f4xx.o
+EXTI1_IRQHandler                                  TrueSTUDIO\startup_stm32f4xx.o
+EXTI2_IRQHandler                                  TrueSTUDIO\startup_stm32f4xx.o
+EXTI3_IRQHandler                                  TrueSTUDIO\startup_stm32f4xx.o
+EXTI4_IRQHandler                                  TrueSTUDIO\startup_stm32f4xx.o
+EXTI9_5_IRQHandler                                TrueSTUDIO\startup_stm32f4xx.o
+EXTI_Init                                         STM32F4-Discovery\stm32f4_discovery.o
+FLASH_IRQHandler                                  TrueSTUDIO\startup_stm32f4xx.o
+FPU_IRQHandler                                    TrueSTUDIO\startup_stm32f4xx.o
+FSMC_IRQHandler                                   TrueSTUDIO\startup_stm32f4xx.o
+GPIO_CLK                                          STM32F4-Discovery\stm32f4_discovery.o
+GPIO_DeInit                                       STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+GPIO_Init                                         STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+                                                  STM32F4-Discovery\stm32f4_discovery.o
+                                                  User\main.o
+GPIO_PIN                                          STM32F4-Discovery\stm32f4_discovery.o
+GPIO_PORT                                         STM32F4-Discovery\stm32f4_discovery.o
+GPIO_PinAFConfig                                  STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+GPIO_PinLockConfig                                STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+GPIO_ReadInputData                                STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+GPIO_ReadInputDataBit                             STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+                                                  STM32F4-Discovery\stm32f4_discovery.o
+GPIO_ReadOutputData                               STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+GPIO_ReadOutputDataBit                            STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+GPIO_ResetBits                                    STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+GPIO_SetBits                                      STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+GPIO_StructInit                                   STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+GPIO_ToggleBits                                   STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+GPIO_Write                                        STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+GPIO_WriteBit                                     STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+HASH_RNG_IRQHandler                               TrueSTUDIO\startup_stm32f4xx.o
+HardFault_Handler                                 User\stm32f4xx_it.o
+I2C1_ER_IRQHandler                                TrueSTUDIO\startup_stm32f4xx.o
+I2C1_EV_IRQHandler                                TrueSTUDIO\startup_stm32f4xx.o
+I2C2_ER_IRQHandler                                TrueSTUDIO\startup_stm32f4xx.o
+I2C2_EV_IRQHandler                                TrueSTUDIO\startup_stm32f4xx.o
+I2C3_ER_IRQHandler                                TrueSTUDIO\startup_stm32f4xx.o
+I2C3_EV_IRQHandler                                TrueSTUDIO\startup_stm32f4xx.o
+MemManage_Handler                                 User\stm32f4xx_it.o
+NMI_Handler                                       User\stm32f4xx_it.o
+NVIC_Init                                         STM32F4xx_StdPeriph_Driver\misc.o
+                                                  STM32F4-Discovery\stm32f4_discovery.o
+NVIC_InitStructure                                STM32F4-Discovery\stm32f4_discovery.o
+NVIC_PriorityGroupConfig                          STM32F4xx_StdPeriph_Driver\misc.o
+NVIC_SetVectorTable                               STM32F4xx_StdPeriph_Driver\misc.o
+NVIC_SystemLPConfig                               STM32F4xx_StdPeriph_Driver\misc.o
+OTG_FS_IRQHandler                                 TrueSTUDIO\startup_stm32f4xx.o
+OTG_FS_WKUP_IRQHandler                            TrueSTUDIO\startup_stm32f4xx.o
+OTG_HS_EP1_IN_IRQHandler                          TrueSTUDIO\startup_stm32f4xx.o
+OTG_HS_EP1_OUT_IRQHandler                         TrueSTUDIO\startup_stm32f4xx.o
+OTG_HS_IRQHandler                                 TrueSTUDIO\startup_stm32f4xx.o
+OTG_HS_WKUP_IRQHandler                            TrueSTUDIO\startup_stm32f4xx.o
+PVD_IRQHandler                                    TrueSTUDIO\startup_stm32f4xx.o
+PendSV_Handler                                    User\stm32f4xx_it.o
+RCC_AHB1PeriphClockCmd                            STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+                                                  STM32F4-Discovery\stm32f4_discovery.o
+                                                  User\main.o
+RCC_AHB1PeriphClockLPModeCmd                      STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+RCC_AHB1PeriphResetCmd                            STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+                                                  STM32F4xx_StdPeriph_Driver\stm32f4xx_gpio.o
+RCC_AHB2PeriphClockCmd                            STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+RCC_AHB2PeriphClockLPModeCmd                      STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+RCC_AHB2PeriphResetCmd                            STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+RCC_AHB3PeriphClockCmd                            STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+RCC_AHB3PeriphClockLPModeCmd                      STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+RCC_AHB3PeriphResetCmd                            STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+RCC_APB1PeriphClockCmd                            STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+RCC_APB1PeriphClockLPModeCmd                      STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+RCC_APB1PeriphResetCmd                            STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+RCC_APB2PeriphClockCmd                            STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+                                                  STM32F4-Discovery\stm32f4_discovery.o
+                                                  User\main.o
+RCC_APB2PeriphClockLPModeCmd                      STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+RCC_APB2PeriphResetCmd                            STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+                                                  STM32F4xx_StdPeriph_Driver\stm32f4xx_adc.o
+RCC_AdjustHSICalibrationValue                     STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+RCC_BackupResetCmd                                STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+RCC_ClearFlag                                     STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+RCC_ClearITPendingBit                             STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+RCC_ClockSecuritySystemCmd                        STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+RCC_DeInit                                        STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+RCC_GetClocksFreq                                 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+RCC_GetFlagStatus                                 STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+RCC_GetITStatus                                   STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+RCC_GetSYSCLKSource                               STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+RCC_HCLKConfig                                    STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+RCC_HSEConfig                                     STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+RCC_HSICmd                                        STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+RCC_I2SCLKConfig                                  STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+RCC_IRQHandler                                    TrueSTUDIO\startup_stm32f4xx.o
+RCC_ITConfig                                      STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+RCC_LSEConfig                                     STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+RCC_LSICmd                                        STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+RCC_MCO1Config                                    STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+RCC_MCO2Config                                    STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+RCC_PCLK1Config                                   STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+RCC_PCLK2Config                                   STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+RCC_PLLCmd                                        STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+RCC_PLLConfig                                     STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+RCC_PLLI2SCmd                                     STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+RCC_PLLI2SConfig                                  STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+RCC_RTCCLKCmd                                     STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+RCC_RTCCLKConfig                                  STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+RCC_SYSCLKConfig                                  STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+RCC_WaitForHSEStartUp                             STM32F4xx_StdPeriph_Driver\stm32f4xx_rcc.o
+RTC_Alarm_IRQHandler                              TrueSTUDIO\startup_stm32f4xx.o
+RTC_WKUP_IRQHandler                               TrueSTUDIO\startup_stm32f4xx.o
+Reset_Handler                                     TrueSTUDIO\startup_stm32f4xx.o
+SDIO_IRQHandler                                   TrueSTUDIO\startup_stm32f4xx.o
+SPI1_IRQHandler                                   TrueSTUDIO\startup_stm32f4xx.o
+SPI2_IRQHandler                                   TrueSTUDIO\startup_stm32f4xx.o
+SPI3_IRQHandler                                   TrueSTUDIO\startup_stm32f4xx.o
+STM_EVAL_LEDInit                                  STM32F4-Discovery\stm32f4_discovery.o
+STM_EVAL_LEDOff                                   STM32F4-Discovery\stm32f4_discovery.o
+STM_EVAL_LEDOn                                    STM32F4-Discovery\stm32f4_discovery.o
+STM_EVAL_LEDToggle                                STM32F4-Discovery\stm32f4_discovery.o
+STM_EVAL_PBGetState                               STM32F4-Discovery\stm32f4_discovery.o
+STM_EVAL_PBInit                                   STM32F4-Discovery\stm32f4_discovery.o
+SVC_Handler                                       User\stm32f4xx_it.o
+SYSCFG_EXTILineConfig                             STM32F4-Discovery\stm32f4_discovery.o
+SysTick_CLKSourceConfig                           STM32F4xx_StdPeriph_Driver\misc.o
+SysTick_Handler                                   User\stm32f4xx_it.o
+SystemCoreClock                                   User\system_stm32f4xx.o
+SystemCoreClockUpdate                             User\system_stm32f4xx.o
+SystemInit                                        User\system_stm32f4xx.o
+                                                  TrueSTUDIO\startup_stm32f4xx.o
+TAMP_STAMP_IRQHandler                             TrueSTUDIO\startup_stm32f4xx.o
+TIM1_BRK_TIM9_IRQHandler                          TrueSTUDIO\startup_stm32f4xx.o
+TIM1_CC_IRQHandler                                TrueSTUDIO\startup_stm32f4xx.o
+TIM1_TRG_COM_TIM11_IRQHandler                     TrueSTUDIO\startup_stm32f4xx.o
+TIM1_UP_TIM10_IRQHandler                          TrueSTUDIO\startup_stm32f4xx.o
+TIM2_IRQHandler                                   TrueSTUDIO\startup_stm32f4xx.o
+TIM3_IRQHandler                                   TrueSTUDIO\startup_stm32f4xx.o
+TIM4_IRQHandler                                   TrueSTUDIO\startup_stm32f4xx.o
+TIM5_IRQHandler                                   TrueSTUDIO\startup_stm32f4xx.o
+TIM6_DAC_IRQHandler                               TrueSTUDIO\startup_stm32f4xx.o
+TIM7_IRQHandler                                   TrueSTUDIO\startup_stm32f4xx.o
+TIM8_BRK_TIM12_IRQHandler                         TrueSTUDIO\startup_stm32f4xx.o
+TIM8_CC_IRQHandler                                TrueSTUDIO\startup_stm32f4xx.o
+TIM8_TRG_COM_TIM14_IRQHandler                     TrueSTUDIO\startup_stm32f4xx.o
+TIM8_UP_TIM13_IRQHandler                          TrueSTUDIO\startup_stm32f4xx.o
+UART4_IRQHandler                                  TrueSTUDIO\startup_stm32f4xx.o
+UART5_IRQHandler                                  TrueSTUDIO\startup_stm32f4xx.o
+USART1_IRQHandler                                 TrueSTUDIO\startup_stm32f4xx.o
+USART2_IRQHandler                                 TrueSTUDIO\startup_stm32f4xx.o
+USART3_IRQHandler                                 TrueSTUDIO\startup_stm32f4xx.o
+USART6_IRQHandler                                 TrueSTUDIO\startup_stm32f4xx.o
+UsageFault_Handler                                User\stm32f4xx_it.o
+WWDG_IRQHandler                                   TrueSTUDIO\startup_stm32f4xx.o
+_Jv_RegisterClasses                               c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2/crtbegin.o
+__dso_handle                                      c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2/crtbegin.o
+__init_array_end                                  c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/../../../../arm-atollic-eabi/lib/thumb/thumb2\libc.a(lib_a-init.o)
+__init_array_start                                c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/../../../../arm-atollic-eabi/lib/thumb/thumb2\libc.a(lib_a-init.o)
+__libc_init_array                                 c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/../../../../arm-atollic-eabi/lib/thumb/thumb2\libc.a(lib_a-init.o)
+                                                  TrueSTUDIO\startup_stm32f4xx.o
+__preinit_array_end                               c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/../../../../arm-atollic-eabi/lib/thumb/thumb2\libc.a(lib_a-init.o)
+__preinit_array_start                             c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/../../../../arm-atollic-eabi/lib/thumb/thumb2\libc.a(lib_a-init.o)
+_ebss                                             TrueSTUDIO\startup_stm32f4xx.o
+_edata                                            TrueSTUDIO\startup_stm32f4xx.o
+_estack                                           TrueSTUDIO\startup_stm32f4xx.o
+_fini                                             c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2/crti.o
+_init                                             c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/thumb/thumb2/crti.o
+                                                  c:/program files/atollic/truestudio for stmicroelectronics stm32 lite 2.2.0/armtools/bin/../lib/gcc/arm-atollic-eabi/4.5.1/../../../../arm-atollic-eabi/lib/thumb/thumb2\libc.a(lib_a-init.o)
+_sbss                                             TrueSTUDIO\startup_stm32f4xx.o
+_sdata                                            TrueSTUDIO\startup_stm32f4xx.o
+_sidata                                           TrueSTUDIO\startup_stm32f4xx.o
+g_pfnVectors                                      TrueSTUDIO\startup_stm32f4xx.o
+main                                              User\main.o
+                                                  TrueSTUDIO\startup_stm32f4xx.o
