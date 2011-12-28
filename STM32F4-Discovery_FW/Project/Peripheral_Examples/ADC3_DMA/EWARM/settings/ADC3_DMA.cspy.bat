@@ -10,6 +10,6 @@
 @REM 
 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 6.0 Kickstart\common\bin\cspybat" "C:\Program Files\IAR Systems\Embedded Workbench 6.0 Kickstart\arm\bin\armproc.dll" "C:\Program Files\IAR Systems\Embedded Workbench 6.0 Kickstart\arm\bin\armstlink.dll"  %1 --plugin "C:\Program Files\IAR Systems\Embedded Workbench 6.0 Kickstart\arm\bin\armbat.dll" --flash_loader "C:\Program Files\IAR Systems\Embedded Workbench 6.0 Kickstart\arm\config\flashloader\" --backend -B "--endian=little" "--cpu=ARM7TDMI" "--fpu=None" "--semihosting" 
+"C:\Program Files\IAR Systems\Embedded Workbench 6.0\common\bin\cspybat" "C:\Program Files\IAR Systems\Embedded Workbench 6.0\arm\bin\armproc.dll" "C:\Program Files\IAR Systems\Embedded Workbench 6.0\arm\bin\armstlink.dll"  %1 --plugin "C:\Program Files\IAR Systems\Embedded Workbench 6.0\arm\bin\armbat.dll" --flash_loader "C:\Program Files\IAR Systems\Embedded Workbench 6.0\arm\config\flashloader\ST\FlashSTM32F4xxx.board" --backend -B "--endian=little" "--cpu=Cortex-M4" "--fpu=None" "-p" "C:\Program Files\IAR Systems\Embedded Workbench 6.0\arm\CONFIG\debugger\ST\iostm32f4xxx.ddf" "--semihosting" "--device=STM32F4xxx" "--stlink_interface=SWD" "--stlink_reset_strategy=0,0" "--drv_swo_clock_setup=72000000,0,2000000" 
 
 
