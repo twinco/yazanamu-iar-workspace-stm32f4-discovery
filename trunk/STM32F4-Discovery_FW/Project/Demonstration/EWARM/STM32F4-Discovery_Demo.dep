@@ -5,7 +5,15 @@
   <fileChecksum>3725622954</fileChecksum>
   <configuration>
     <name>Demo</name>
-    <outputs/>
+    <outputs>
+      <file>$PROJ_DIR$\..\main.c</file>
+      <file>$PROJ_DIR$\..\selftest.c</file>
+      <file>$PROJ_DIR$\..\stm32f4xx_it.c</file>
+      <file>$PROJ_DIR$\..\system_stm32f4xx.c</file>
+      <file>$PROJ_DIR$\..\usb_bsp.c</file>
+      <file>$PROJ_DIR$\..\usbd_desc.c</file>
+      <file>$PROJ_DIR$\..\usbd_usr.c</file>
+    </outputs>
     <forcedrebuild>
       <name>[MULTI_TOOL]</name>
       <tool>ILINK</tool>
