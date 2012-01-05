@@ -5,7 +5,7 @@
     
     
     
-  <CurrentConfigs><Project>ADC3_DMA/ADC3_DMA</Project><Project>ADC_Interleaved_DMAmode2/ADC_Interleaved_DMAmode2</Project><Project>Audio_playback_and_record/MEDIA_IntFLASH</Project><Project>DAC_SignalsGeneration/DAC_SignalsGeneration</Project><Project>DMA_FLASH_RAM/DMA_FLASH_RAM</Project><Project>Exti/Exti</Project><Project>Flash_Program/Flash_Program</Project><Project>Flash_Write_Protection/Flash_Write_Protection</Project><Project>IO_Toggle/IO_Toggle</Project><Project>SysTick/SysTick</Project><Project>Template/Debug</Project><Project>TIM_ComplementarySignals/TIM_ComplementarySignals</Project><Project>test02/Debug</Project><Project>PWR_STOP/PWR_STOP</Project><Project>RCC/RCC</Project><Project>STM32F4-Discovery_Demo/Demo</Project><Project>STM32F4-Discovery_FW_Upgrade/FW_Upgrade_Demo</Project><Project>IWDG/IWDG</Project><Project>LIS302DL/LIS302DL</Project><Project>PWR_CurrentConsumption/PWR_CurrentConsumption</Project><Project>PWR_STANDBY/PWR_STANDBY</Project><Project>TIM_PWM_Input/TIM_PWM_Input</Project><Project>TIM_PWM_Output/TIM_PWM_Output</Project><Project>TIM_TimeBase/TIM_TimeBase</Project></CurrentConfigs><CurrentProj>ADC3_DMA</CurrentProj><OverviewSelected>1</OverviewSelected></ConfigDictionary>
+  <CurrentConfigs><Project>ADC3_DMA/ADC3_DMA</Project><Project>ADC_Interleaved_DMAmode2/ADC_Interleaved_DMAmode2</Project><Project>Audio_playback_and_record/MEDIA_IntFLASH</Project><Project>DAC_SignalsGeneration/DAC_SignalsGeneration</Project><Project>DMA_FLASH_RAM/DMA_FLASH_RAM</Project><Project>Exti/Exti</Project><Project>IWDG/IWDG</Project><Project>LIS302DL/LIS302DL</Project><Project>PWR_CurrentConsumption/PWR_CurrentConsumption</Project><Project>PWR_STANDBY/PWR_STANDBY</Project><Project>SysTick/SysTick</Project><Project>Template/Debug</Project><Project>TIM_ComplementarySignals/TIM_ComplementarySignals</Project><Project>test02/Debug</Project><Project>PWR_STOP/PWR_STOP</Project><Project>RCC/RCC</Project><Project>STM32F4-Discovery_Demo/Demo</Project><Project>STM32F4-Discovery_FW_Upgrade/FW_Upgrade_Demo</Project><Project>Flash_Program/Flash_Program</Project><Project>Flash_Write_Protection/Flash_Write_Protection</Project><Project>IO_Toggle/IO_Toggle</Project><Project>TIM_PWM_Input/TIM_PWM_Input</Project><Project>TIM_PWM_Output/TIM_PWM_Output</Project><Project>TIM_TimeBase/TIM_TimeBase</Project></CurrentConfigs><CurrentProj>ADC3_DMA</CurrentProj><OverviewSelected>1</OverviewSelected></ConfigDictionary>
   <Desktop>
     <Static>
       <Workspace>
@@ -14,7 +14,7 @@
           
           
           
-        <Column0>361</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+        <Column0>555</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
       </Workspace>
     <Build><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>869</ColumnWidth1><ColumnWidth2>231</ColumnWidth2><ColumnWidth3>57</ColumnWidth3></Build></Static>
     <Windows>
@@ -27,7 +27,7 @@
             <Factory>Workspace</Factory>
             <Session>
               
-            <NodeDict><ExpandedNode>&lt;ws&gt;</ExpandedNode><ExpandedNode>&lt;ws&gt;/RCC</ExpandedNode><ExpandedNode>&lt;ws&gt;/test02</ExpandedNode><ExpandedNode>&lt;ws&gt;/test02/EWARM</ExpandedNode><ExpandedNode>&lt;ws&gt;/test02/STM32F4-Discovery</ExpandedNode><ExpandedNode>&lt;ws&gt;/test02/STM32F4xx_StdPeriph_Driver</ExpandedNode><ExpandedNode>&lt;ws&gt;/test02/USER</ExpandedNode></NodeDict></Session>
+            <NodeDict><ExpandedNode>&lt;ws&gt;</ExpandedNode><ExpandedNode>&lt;ws&gt;/test02</ExpandedNode><ExpandedNode>&lt;ws&gt;/test02/EWARM</ExpandedNode><ExpandedNode>&lt;ws&gt;/test02/STM32F4-Discovery</ExpandedNode><ExpandedNode>&lt;ws&gt;/test02/STM32F4xx_StdPeriph_Driver</ExpandedNode><ExpandedNode>&lt;ws&gt;/test02/USER</ExpandedNode></NodeDict></Session>
           </Tab>
         </Tabs>
         
@@ -44,7 +44,7 @@
       
       
       
-    <Top><Row0><Sizes><Toolbar-00563d68><key>iaridepm.enu1</key></Toolbar-00563d68></Sizes></Row0></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>801</Bottom><Right>452</Right><x>-2</x><y>-2</y><xscreen>147</xscreen><yscreen>138</yscreen><sizeHorzCX>114844</sizeHorzCX><sizeHorzCY>140530</sizeHorzCY><sizeVertCX>354688</sizeVertCX><sizeVertCY>817719</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>136</Bottom><Right>1282</Right><x>-2</x><y>-2</y><xscreen>1284</xscreen><yscreen>138</yscreen><sizeHorzCX>1003125</sizeHorzCX><sizeHorzCY>140530</sizeHorzCY><sizeVertCX>114844</sizeVertCX><sizeVertCY>140530</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+    <Top><Row0><Sizes><Toolbar-00537410><key>iaridepm.enu1</key></Toolbar-00537410></Sizes></Row0></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>679</Bottom><Right>646</Right><x>-2</x><y>-2</y><xscreen>210</xscreen><yscreen>260</yscreen><sizeHorzCX>164063</sizeHorzCX><sizeHorzCY>264766</sizeHorzCY><sizeVertCX>506250</sizeVertCX><sizeVertCY>693483</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>258</Bottom><Right>1282</Right><x>-2</x><y>-2</y><xscreen>1284</xscreen><yscreen>260</yscreen><sizeHorzCX>1003125</sizeHorzCX><sizeHorzCY>264766</sizeHorzCY><sizeVertCX>164063</sizeVertCX><sizeVertCY>264766</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
   </Desktop>
 </Workspace>
 
