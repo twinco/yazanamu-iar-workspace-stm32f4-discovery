@@ -300,6 +300,8 @@
           <state>$PROJ_DIR$\..\STM32F4-Discovery_FW\Libraries\CMSIS\ST\STM32F4xx\Include</state>
           <state>$PROJ_DIR$\..\STM32F4-Discovery_FW\Libraries\STM32F4xx_StdPeriph_Driver\inc</state>
           <state>$PROJ_DIR$\..\STM32F4-Discovery_FW\\Utilities\STM32F4-Discovery</state>
+          <state>$PROJ_DIR$\..\STM32F4-Discovery_FW\\Utilities\STM32_EVAL\STM3240_41_G_EVAL</state>
+          <state>$PROJ_DIR$\..\STM32F4-Discovery_FW\\Utilities\STM32_EVAL\Common</state>
         </option>
         <option>
           <name>CCStdIncCheck</name>
