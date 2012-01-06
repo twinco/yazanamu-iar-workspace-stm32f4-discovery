@@ -118,9 +118,6 @@ void RCC_Configuration(void)
 {
 //    SystemInit();
 
-	/* GPIOD Periph clock enable */
-//	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOD, ENABLE);
-
     /* Enable GPIOA clock */
 //    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE);
 
@@ -128,13 +125,13 @@ void RCC_Configuration(void)
 //    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB, ENABLE);
 
     /* Enable GPIOC clock */
-//    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC, ENABLE);
+    RCC_APB2PeriphClockCmd(RCC_AHB1Periph_GPIOC, ENABLE);
 
     /* Enable GPIOD clock */
-//    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOD, ENABLE);
+    RCC_APB2PeriphClockCmd(RCC_AHB1Periph_GPIOD, ENABLE);
 
-    /* Enable USART1 clocks */
-//    RCC_APB2PeriphClockCmd(RCC_APB2Periph_USART1, ENABLE);
+    /* Enable USART3 clocks */
+    RCC_APB1PeriphClockCmd(RCC_APB1Periph_USART3, ENABLE);
 
     /* Enable AFIO clock */
 //    RCC_APB2PeriphClockCmd(RCC_APB2Periph_AFIO, ENABLE);
@@ -160,7 +157,7 @@ void STM_EVAL_COMInit(COM_TypeDef COM, USART_InitTypeDef* USART_InitStruct)
   /* Enable GPIO clock */
   RCC_AHB1PeriphClockCmd(COM_TX_PORT_CLK[COM] | COM_RX_PORT_CLK[COM], ENABLE);
 
-  if (COM == COM1)
+  if (COM == COM1) // USART3
   {
     /* Enable UART clock */
     RCC_APB1PeriphClockCmd(COM_USART_CLK[COM], ENABLE);
@@ -206,16 +203,20 @@ int main(void)
 #endif
 
 
+
   /* Configigure UAER2 */
   /* System clocks configuration ---------------------------------------------*/
-  RCC_Configuration();
+
   GPIO_Configuration();
+  RCC_Configuration();
+
+  GPIO_SetBits(GPIOD, GPIO_Pin_12);
+
+  
   //NVIC_Configuration();  
   STM_EVAL_COMInit(COM1, &USART_InitStructure);
 
-  /* Output a message on Hyperterminal using printf function */
-  printf("\n\rUSART Printf Example: retarget the C library printf function to the USART\n\r");
-
+  
   while (1)
   {
     /* PD12 to be toggled */
@@ -247,6 +248,8 @@ int main(void)
     /* Insert delay */
     Delay(0xFFFFFF);
 	
+	/* Output a message on Hyperterminal using printf function */
+	printf("\n\rUSART Printf Example: retarget the C library printf function to the USART\n\r");
   }
 }
 

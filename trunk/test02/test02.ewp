@@ -568,15 +568,15 @@
         <option>
           <name>OOCOutputFormat</name>
           <version>2</version>
-          <state>0</state>
+          <state>2</state>
         </option>
         <option>
           <name>OCOutputOverride</name>
-          <state>1</state>
+          <state>0</state>
         </option>
         <option>
           <name>OOCOutputFile</name>
-          <state>test02.srec</state>
+          <state>test02.bin</state>
         </option>
         <option>
           <name>OOCCommandLineProducer</name>
@@ -1844,6 +1844,9 @@
     </file>
     <file>
       <name>$PROJ_DIR$\..\STM32F4-Discovery_FW\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\STM32F4-Discovery_FW\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_sdio.c</name>
     </file>
     <file>
       <name>$PROJ_DIR$\..\STM32F4-Discovery_FW\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_usart.c</name>

@@ -62,6 +62,9 @@
     <path>$WS_DIR$\..\..\..\..\test02\test02.ewp</path>
   </project>
   <project>
+    <path>$WS_DIR$\..\..\..\..\test03\test03.ewp</path>
+  </project>
+  <project>
     <path>$WS_DIR$\..\..\Peripheral_Examples\TIM_ComplementarySignals\EWARM\TIM_ComplementarySignals.ewp</path>
   </project>
   <project>
