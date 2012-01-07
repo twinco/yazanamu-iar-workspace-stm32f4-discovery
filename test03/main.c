@@ -35,6 +35,9 @@
 GPIO_InitTypeDef  GPIO_InitStructure;
 
 /* Private define ------------------------------------------------------------*/
+#define STDIO1 device=USART1_sendchar
+#define STDIO2 device=GLCD_sendchar
+
 #define LED_GREEN_ON 	GPIO_SetBits(GPIOD,GPIO_Pin_12)
 #define LED_ORANGE_ON 	GPIO_SetBits(GPIOD,GPIO_Pin_13)
 #define LED_RED_ON 		GPIO_SetBits(GPIOD,GPIO_Pin_14)
@@ -51,6 +54,30 @@ GPIO_InitTypeDef  GPIO_InitStructure;
 void Delay(__IO uint32_t nCount);
 /* Private functions ---------------------------------------------------------*/
 
+int (*device)(unsigned char ch);    //함수포인터 선언
+
+int GLCD_sendchar(unsigned char ch)
+{ 
+        GLCD_displayChar(xref_line, yref_column, ch);  
+        yref_column -= 16;                             
+        return 0;
+}
+int USART1_sendchar(unsigned char ch)
+{
+        USART_SendData(USART1, (uint8_t)ch);
+        while (USART_GetFlagStatus(USART1, USART_FLAG_TC) == RESET){};
+        return 0;
+}
+int USART1_getchar(void)
+{
+        while (USART_GetFlagStatus(USART1, USART_FLAG_RXNE) == RESET){};
+        return USART_ReceiveData(USART1);
+}
+//입.출력 재설정
+==============================================================================
+int fputc(int ch, FILE *f) { return (device(ch)); }
+int fgetc(FILE *f){ return (USART1_getchar()); }
+==============================================================================
 
 /*
  * Name   : RCC_Configuration
